@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador/Desencriptador de Texto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-area">
+            <input type="text" id="textoAEncriptar" placeholder="Ingrese el texto aquí">
+            <div class="buttons">
+                <button onclick="encriptarTexto()">Encriptar!</button>
+                <button onclick="desencriptarTexto()">Desencriptar!</button>
+            </div>
+            <div class="nota">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+        </div>
+        <div class="output-area">
+            <p id="textoProcesado">Ningún mensaje fue encontrado</p>
+        </div>
+    </div>
+    <script src="encriptador.js"></script>
+</body>
+</html>
